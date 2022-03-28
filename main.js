@@ -55,7 +55,7 @@ if(scoreLeftWrist > 0.05){
     harry_potter.stop();
     if(song1_status == false){
         dino.play();
-        document.getElementById("song").innerHTML="Jurrasic Park";
+        document.getElementById("song").innerHTML="Song = Jurrasic Park";
         dino.volume(1);
     }
 }
